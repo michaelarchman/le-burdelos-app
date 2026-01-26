@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+#App {
+  display: flex;
+  flex-direction: column;
+}
+
+#Topbar nav {
+  height: 3rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-width: 100%;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.gamePanel {
+  padding: 1rem;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 1rem;
+  max-height: 100px;
+  overflow: hidden;
+  transition: max-height 300ms ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(255,255,255,0.1), rgba(0, 0, 0, 0.057));
+}
+
+.gamePanel:hover {
+  max-height: 400px;
+}
+
+.gamePanel_list {
+  display: flex;
+  gap: 1rem;
+}
