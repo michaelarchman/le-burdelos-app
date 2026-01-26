@@ -48,3 +48,51 @@
   display: flex;
   gap: 1rem;
 }
+
+.main-header {
+  height: 400px;
+  width: 600px;
+  border-radius: 20px;
+  background-image: url("/LeBurdelos.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  color: white;
+  box-sizing: border-box;
+  text-align: left;
+  margin: 20 0;
+}
+
+.main-header h1{
+  margin: 0;
+  text-shadow: 2px 2px goldenrod;
+}
+.main-header h3 {
+  text-shadow: 1px 1px goldenrod;
+}
+.main-header p {
+  text-shadow: 1px 1px goldenrod;
+}
+
+.play_button {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding: 8px 16px;       
+  background-color: #ffd700; 
+  color: black;            
+  border: none;
+  border-radius: 20px;     
+  font-weight: bold;
+  font-size: 0.9rem;       
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.play_button:hover {
+  background-color: #ffaa00;
+}

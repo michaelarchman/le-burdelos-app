@@ -1,6 +1,7 @@
 import './App.css'
 import Content from './components/Content'
 import GamePanel from './components/GameSlot'
+import Header from './components/Header'
 import Topbar from './components/Topbar'
 
 
@@ -9,6 +10,7 @@ function App() {
   return (
     <div id='App'>
       <Topbar />
+      <Header />
 
       <Content 
         title="Casino" 
