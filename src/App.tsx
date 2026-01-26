@@ -1,5 +1,6 @@
 import './App.css'
 import GamePanel from './components/GameSlot'
+import Header from './components/Header'
 import Topbar from './components/Topbar'
 
 
@@ -8,6 +9,7 @@ function App() {
   return (
     <div id='App'>
       <Topbar />
+      <Header />
       <h4>Select your next game:</h4>
       <div class='gamePanel_list'>
         <GamePanel name="Russian Roulete" slotsCount={2} />
