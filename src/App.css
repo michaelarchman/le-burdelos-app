@@ -96,3 +96,24 @@
 .play_button:hover {
   background-color: #ffaa00;
 }
+.contact-box {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(0,0,0,0.2));
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+.contact-left h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #ffd700;
+}
+
+.contact-right {
+  text-align: right;
+  font-size: 0.9rem;
+}
