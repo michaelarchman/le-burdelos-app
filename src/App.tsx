@@ -27,6 +27,9 @@ function App() {
 
 
       } />
+      <footer>
+        stopka  
+      </footer>
     </div>
   )
 }
