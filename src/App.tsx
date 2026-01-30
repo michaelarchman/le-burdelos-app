@@ -1,17 +1,16 @@
-import "./App.css"
 import type { Component } from "solid-js"
+import "./App.css"
 import Content from "./components/Content"
 import GamePanel from "./components/GameSlot"
 import Header from "./components/Header"
 import Topbar from "./components/Topbar"
+import Footer from "./components/Footer"
 
-const App: Component = () => {
+const App: Component  = () => {
   return (
     <div id="App">
       <Topbar />
-
       <Header />
-
       <Content 
         title="Casino" 
         description="Make your first million!!!!!" 
@@ -26,23 +25,10 @@ const App: Component = () => {
               <GamePanel name="Casino" slotsCount={4} />
               <GamePanel name="Le burdelos" slotsCount={7} />
             </div>
-
-          
-            <div class="contact-box">
-              <div class="contact-left">
-                <h2>Le Burdelos</h2>
-              </div>
-
-              <div class="contact-right">
-                <p>📞 Telefon: +48 123 456 789</p>
-                <p>📧 Email: kontakt@leburdelos.pl</p>
-              </div>
-            </div>
+      <Footer email="leburdelos@gmail.com" telefon="+48 963 532 756"/>
           </>
         } 
       />
-
-
     </div>
   )
 }
