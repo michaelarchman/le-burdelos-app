@@ -1,3 +1,4 @@
+import { A } from "@solidjs/router"
 import type { Component } from "solid-js"
 
 const Topbar: Component = () => {
@@ -5,7 +6,7 @@ const Topbar: Component = () => {
     <div id='Topbar'>
       <nav >
         <div>Logo</div>
-        <div>Menu</div>
+        <div><A href="gamepage">Gry</A></div>
         <div>Account</div>
         <div>CTA</div>
       </nav>
