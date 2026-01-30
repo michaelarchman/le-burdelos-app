@@ -35,24 +35,51 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/ Logo box */
 .logo-box {
   border: 2px solid #ddd;
+  /* ramka dookoła elementu:
+     - grubość: 2px
+     - styl: ciągła linia
+     - kolor: jasnoszary */
+
   border-radius: 12px;
+  /* zaokrągla rogi ramki */
+
   padding: 20px;
+  /* odstęp WEWNĄTRZ boxa – tekst nie dotyka krawędzi */
+
   max-width: 320px;
+  /* maksymalna szerokość boxa – nie rozciąga się bardziej */
+
   background-color: #fff;
+  /* białe tło */
+
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  /* cień:
+     - 0 → brak przesunięcia w bok
+     - 4px → cień w dół
+     - 12px → rozmycie
+     - rgba → lekki, półprzezroczysty */
 }
 
 .logo-title {
   font-size: 24px;
+  /* wielkość tekstu (duży tytuł) */
+
   font-weight: bold;
+  /* pogrubienie tekstu */
+
   text-align: center;
+  /* wyśrodkowanie tekstu */
+
   margin-bottom: 12px;
+  /* odstęp pod tytułem */
 }
 
 .logo-content {
   font-size: 14px;
+  /* mniejszy tekst – treść/opis */
+
   line-height: 1.6;
+  /* odstęp między liniami tekstu – lepsza czytelność */
 }
