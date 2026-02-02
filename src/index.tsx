@@ -4,7 +4,7 @@ import './index.css'
 import { Router, Route } from '@solidjs/router'
 import App from './App'
 import AccountPage from './pages/AccountPage'
-import GamePage from './pages/GaePage'
+import GamePage from './pages/GamePage'
 
 const root = document.getElementById('root')
 
