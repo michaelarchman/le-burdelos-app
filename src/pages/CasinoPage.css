@@ -1,0 +1,10 @@
+
+.casino-page {
+  padding: 1rem;
+}
+
+.casino-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

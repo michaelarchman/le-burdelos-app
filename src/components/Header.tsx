@@ -1,4 +1,5 @@
 import type { Component } from "solid-js";
+import { A } from "@solidjs/router";
 
 const Header: Component = () => {
     return (
@@ -9,7 +10,7 @@ const Header: Component = () => {
                 <p>
                     Najwyższy możliwy <br/> jackpot posród <br/> wszystkich slotów
                 </p>
-                <button class="play_button">Zagraj teraz</button>
+                <A href="/casino" class="play_button">Zagraj teraz</A>
             </header>
         </>
     )
