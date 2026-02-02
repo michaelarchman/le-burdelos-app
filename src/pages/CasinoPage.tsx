@@ -1,5 +1,5 @@
 import { useNavigate } from "@solidjs/router";
-import ChevronLeft from "../assets/chevron.svg";
+import ChevronLeft from "../assets/chevron_left.svg";
 import "./CasinoPage.css";
 
 const CasinoPage = () => {
