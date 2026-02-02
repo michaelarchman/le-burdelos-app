@@ -7,9 +7,8 @@ const Topbar: Component = () => {
       <nav >
         <div>Logo</div>
         <div>Menu</div>
-        <div>
-          <A href="/account">Account</A>
-        </div>
+        <A href="/account">Account</A>
+        <A href="gamepage">Gry</A>
         <div>CTA</div>
       </nav>
     </div>
