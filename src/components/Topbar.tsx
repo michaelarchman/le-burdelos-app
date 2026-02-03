@@ -10,6 +10,7 @@ const Topbar: Component = () => {
         <A href="/account">Account</A>
         <A href="gamepage">Gry</A>
         <A href="login">Zaloguj</A>
+        <A href="register">Zarejestruj się</A>
       </nav>
     </div>
   )

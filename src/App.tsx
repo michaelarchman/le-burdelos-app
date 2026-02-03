@@ -6,6 +6,7 @@ import Header from "./components/Header"
 import Topbar from "./components/Topbar"
 import Footer from "./components/Footer"
 
+
 const App: Component  = () => {
   return (
     <div id="App">
@@ -15,8 +16,8 @@ const App: Component  = () => {
         title="Casino" 
         description="Make your first million!!!!!" 
         content={
-          <>
-          
+          <><>
+
 
             <h4>Select your next game:</h4>
 
@@ -25,9 +26,12 @@ const App: Component  = () => {
               <GamePanel name="Casino" slotsCount={4} />
               <GamePanel name="Le burdelos" slotsCount={7} />
             </div>
-      <Footer email="leburdelos@gmail.com" telefon="+48 963 532 756"/>
+            <Footer email="leburdelos@gmail.com" telefon="+48 963 532 756" />
           </>
-        } 
+          
+          </>
+  
+      } 
       />
     </div>
   )
