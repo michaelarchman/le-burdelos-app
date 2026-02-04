@@ -3,6 +3,7 @@ import type { Component } from "solid-js";
 type FooterProps={
     email: string;
     telefon: string;
+    telefon2: string;
 }
 
 const Footer: Component<FooterProps> = (props: FooterProps ) => {
@@ -15,6 +16,7 @@ const Footer: Component<FooterProps> = (props: FooterProps ) => {
             <div class="contact-right">
                 <p>{props.telefon}</p>
                 <p>{props.email}</p>
+                <p>{props.telefon2}</p>
             </div>
         </div>
     )
