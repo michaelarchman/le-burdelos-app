@@ -17,7 +17,7 @@ const VerifyPage: Component = () => {
                     <>
                         <h4>Wprowadź dane poniżej:</h4>
                         <VerifyForm />
-                        <Footer email="leburdelos@gmail.com" telefon="+48 963 532 756" />
+                        <Footer email="leburdelos@gmail.com" telefon="+48 963 532 756" telefon2="+48 456 567 123" />
                     </>
                 } 
             />
