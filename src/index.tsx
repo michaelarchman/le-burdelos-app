@@ -7,6 +7,7 @@ import App from './App'
 import AccountPage from './pages/AccountPage'
 import GamePage from './pages/GamePage'
 import VerifyPage from './pages/VerifyPage'
+import RegisterPage from './pages/RegisterPage'
 
 const root = document.getElementById('root')
 
@@ -17,6 +18,7 @@ render(
        <Route path="gamepage" component={GamePage} />
       <Route path="/account" component={() => <AccountPage user='Andrew' email='andrew2000@gmail.com' nickname='Andrewstar' balance={5000} />} />
       <Route path="/verify" component={VerifyPage} />
+      <Route path="Register" component={RegisterPage} />
     </Router>
   ),
   root!
