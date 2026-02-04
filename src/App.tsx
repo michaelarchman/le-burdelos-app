@@ -1,5 +1,4 @@
 import type { Component } from "solid-js"
-import "./App.css"
 import Content from "./components/Content"
 import GamePanel from "./components/GameSlot"
 import Header from "./components/Header"

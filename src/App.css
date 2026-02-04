@@ -141,11 +141,30 @@
   /* kolor złoty – casino vibe */
 }
 
-.contact-right {
-  text-align: right;
-  /* wyrównuje tekst do prawej strony */
+.topbar-right {
+  display: flex;
+  align-items: center;
+}
 
-  font-size: 0.9rem;
-  /* trochę mniejszy tekst niż standardowy */
+.verify-square-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  background-color: #ffd700;
+  color: black !important;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-align: center;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  padding: 5px;
+  line-height: 1.1;
+}
+
+.verify-square-btn:hover {
+  background-color: #ffaa00;
 }
 
