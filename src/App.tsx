@@ -15,16 +15,14 @@ const App: Component  = () => {
         description="Make your first million!!!!!" 
         content={
           <>
-          
-
             <h4>Select your next game:</h4>
-
+            <p>sssss</p> 
             <div class="gamePanel_list">
               <GamePanel name="Russian Roulete" slotsCount={2} />
               <GamePanel name="Casino" slotsCount={4} />
               <GamePanel name="Le burdelos" slotsCount={7} />
             </div>
-      <Footer email="leburdelos@gmail.com" telefon="+48 963 532 756"/>
+            <Footer email="leburdelos@gmail.com" telefon="+48 963 532 756"/>
           </>
         } 
       />
