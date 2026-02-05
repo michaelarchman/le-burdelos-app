@@ -12,10 +12,10 @@ h1 {
     color: #58a6ff;
 }
 
-input {
+.login input {
     width: 100%;
     padding: 12px;
-    margin: 8px 0 20px 0;
+    margin: 8px 0;
     background: #0d1117;
     border: 1px solid #30363d;
     color: white;
@@ -36,4 +36,9 @@ input {
 
 .btn:hover {
     background: #2ea043;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
 }
