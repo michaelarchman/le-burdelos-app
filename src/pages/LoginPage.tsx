@@ -1,16 +1,14 @@
-import styles from "./LoginPage.module.css";
+import './LoginPage.css'
 
 const LoginPage = () => {
     return (
-        <div class={styles.loginContainer}> 
-            <div class={styles.login}>
-                <h1>Logowanie</h1>
-                <form>
-                    <input type="text" placeholder="Nazwa użytkownika" required /> <br/>
-                    <input type="password" placeholder="Hasło" required /> <br/>
-                    <button type="submit" class={styles.btn}>Zaloguj się</button>
-                </form>
-            </div>
+        <div class="login">
+            <h1>Logowanie</h1>
+            <form>
+                <input type="text" placeholder="Nazwa użytkownika" required />
+                <input type="password" placeholder="Hasło" required />
+                <button type="submit" class="btn">Zaloguj się</button>
+            </form>
         </div>
     );
 };
