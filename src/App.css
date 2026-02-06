@@ -97,48 +97,24 @@
   background-color: #ffaa00;
 }
 .contact-box {
-  margin-top: 2rem; 
-  /* robi odstęp od góry – oddziela tę ramkę od elementów nad nią */
-
+  margin-top: 2rem;
   padding: 1.5rem;
-  /* odstęp WEWNĄTRZ ramki – żeby tekst nie kleił się do krawędzi */
-
   border-radius: 1rem;
-  /* zaokrągla rogi ramki */
-
   display: flex;
-  /* ustawia elementy w środku w jednej linii (lewo ↔ prawo) */
-
   justify-content: space-between;
-  /* rozsuwa elementy:
-     - lewa część idzie w lewo
-     - prawa część idzie w prawo */
-
   align-items: center;
-  /* wyrównuje elementy w pionie (na środku wysokości) */
-
   background: linear-gradient(
     180deg,
     rgba(255,255,255,0.08),
     rgba(0,0,0,0.2)
   );
-  /* tło z gradientem:
-     - u góry jaśniejsze
-     - na dole ciemniejsze */
-
   border: 1px solid rgba(255,255,255,0.15);
-  /* cienka, półprzezroczysta ramka */
 }
 
 .contact-left h2 {
   margin: 0;
-  /* usuwa domyślny margines nagłówka */
-
   font-size: 1.6rem;
-  /* ustawia wielkość tekstu */
-
   color: #ffd700;
-  /* kolor złoty – casino vibe */
 }
 
 .topbar-right {
