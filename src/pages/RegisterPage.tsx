@@ -15,4 +15,4 @@ const RegisterPage: Component = () => {
   );
 };
 
-export default RegisterPage;
+export default RegisterPage; 
