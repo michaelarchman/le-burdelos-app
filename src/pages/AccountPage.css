@@ -1,0 +1,85 @@
+.account-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    color: #c9d1d9;
+}
+
+.account-header {
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.account-header h1 {
+    margin: 0;
+    color: #58a6ff;
+}
+
+.account-section {
+    margin-bottom: 30px;
+}
+
+.account-section h2 {
+    font-size: 1.2rem;
+    color: #58a6ff;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 5px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.info-label {
+    font-weight: bold;
+    color: #8b949e;
+}
+
+.info-value {
+    color: #f0f6fc;
+}
+
+.balance-card {
+    background: #0d1117;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #30363d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.balance-amount {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3fb950;
+}
+
+.transaction-list {
+    list-style: none;
+    padding: 0;
+}
+
+.transaction-item {
+    padding: 10px;
+    border-bottom: 1px solid #21262d;
+    display: flex;
+    justify-content: space-between;
+}
+
+.transaction-item:last-child {
+    border-bottom: none;
+}
+
+.placeholder-text {
+    font-style: italic;
+    color: #8b949e;
+}
