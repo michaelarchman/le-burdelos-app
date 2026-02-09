@@ -11,6 +11,8 @@ const Topbar: Component = () => {
         <A href="gamepage">Gry</A>
         <A href="register">Zarejestruj się</A> 
         <A href="/gamepage">Gry</A>
+        <A href="register">Zarejestruj się</A>
+        <A href="register">Zarejestruj się</A> 
         <div class="topbar-right">
           <A href="/verify" class="verify-square-btn">Zweryfikuj się</A>
           <A href="/login" class="verify-square-btn">Zaloguj sie</A>

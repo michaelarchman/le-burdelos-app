@@ -10,6 +10,7 @@ import VerifyPage from './pages/VerifyPage'
 import RegisterPage from './pages/RegisterPage'
 import LoginPage from './pages/LoginPage'
 
+
 const root = document.getElementById('root')
 
 render(
