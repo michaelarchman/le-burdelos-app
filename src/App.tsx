@@ -23,6 +23,8 @@ const App: Component  = () => {
               <GamePanel name="Russian Roulete" slotsCount={2} />
               <GamePanel name="Casino" slotsCount={4} />
               <GamePanel name="Le burdelos" slotsCount={7} />
+              <GamePanel name="Le Aerox" slotsCount={6} />
+              <GamePanel name="Wild dogs" slotsCount={8} />
             </div>
       <Footer email="leburdelos@gmail.com" telefon="+48 963 532 756"/>
           </>
