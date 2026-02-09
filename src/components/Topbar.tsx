@@ -9,7 +9,7 @@ const Topbar: Component = () => {
         <div>Menu</div>
         <A href="/account">Account</A>
         <A href="gamepage">Gry</A>
-        <A href="register">Zarejestruj się</A>
+        <A href="register">Zarejestruj się</A> 
         <A href="/gamepage">Gry</A>
         <div class="topbar-right">
           <A href="/verify" class="verify-square-btn">Zweryfikuj się</A>
