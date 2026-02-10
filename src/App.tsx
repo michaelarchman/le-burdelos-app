@@ -16,7 +16,6 @@ const App: Component  = () => {
         content={
           <>
             <h4>Select your next game:</h4>
-            <p>sssss</p> 
             <div class="gamePanel_list">
               <GamePanel name="Russian Roulete" slotsCount={2} />
               <GamePanel name="Casino" slotsCount={4} />

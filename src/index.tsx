@@ -9,7 +9,7 @@ import GamePage from './pages/GamePage'
 import VerifyPage from './pages/VerifyPage'
 import RegisterPage from './pages/RegisterPage'
 import LoginPage from './pages/LoginPage'
-
+import BalancePage from './pages/BalancePage'
 
 const root = document.getElementById('root')
 
@@ -22,6 +22,7 @@ render(
       <Route path="/verify" component={VerifyPage} />
       <Route path="Register" component={RegisterPage} />
       <Route path="/login" component={LoginPage} />
+      <Route path="/balance" component={BalancePage} />
     </Router>
   ),
   root!
