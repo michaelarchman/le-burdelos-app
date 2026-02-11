@@ -36,7 +36,7 @@ const AccountPage: Component<AccountProps> = (props: AccountProps) => {
                 <h2>Saldo</h2>
                 <div class="balance-card">
                     <span>Dostępne środki:</span>
-                    <span class="balance-amount">{props.balance.toLocaleString()} zł</span>
+                    <span class="balance-amount">{props.balance} zł</span>
                 </div>
             </section>
 
