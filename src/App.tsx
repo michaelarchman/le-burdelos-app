@@ -1,6 +1,7 @@
 import type { Component } from "solid-js"
 import Content from "./components/Content"
 import GamePanel from "./components/GameSlot"
+import SlotMachine from "./components/SlotMachine"
 import Header from "./components/Header"
 import Topbar from "./components/Topbar"
 import Footer from "./components/Footer"
@@ -17,6 +18,7 @@ const App: Component  = () => {
           <>
             <h4>Select your next game:</h4>
             <div class="gamePanel_list">
+              <SlotMachine />
               <GamePanel name="Russian Roulete" slotsCount={2} />
               <GamePanel name="Casino" slotsCount={4} />
               <GamePanel name="Le burdelos" slotsCount={7} />
